@@ -68,7 +68,7 @@ and burn flows so that the unit tests pass.
 
 **📚 Here are some helpful resources if you are struggling!**
 
-- [Your First Move Module: How to compile, test, deploy Move Modules](https://aptos.dev/build/guides/first-move-module)
+- [Your First Fungible Asset Guide](https://aptos.dev/build/guides/first-fungible-asset)
 
 - [Aptos Move Documentation](https://aptos.dev/build/smart-contracts)
 
@@ -92,7 +92,7 @@ Linux/macOS:
 
 ```bash
 
-./verify.sh [additional aptos move test args]
+./verify.sh
 
 ```
 
@@ -100,7 +100,7 @@ Windows (PowerShell 7+):
 
 ```powershell
 
-pwsh -File verify.ps1 [-AptosArgs @('--filter','foo')]
+pwsh -File verify.ps1
 
 ```
 
@@ -129,6 +129,5 @@ prove your solution meets the challenge requirements.
 1. After successfully passing the tests, push your code to your forked GitHub repo and [make a PR to the original repo.](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork) 
 
 2. Inside the PR include:
-
   - Screenshot of your terminal showing the result of running the test script.
 
